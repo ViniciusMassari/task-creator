@@ -1,0 +1,32 @@
+{
+  "name": "taskscreator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@autotelic/fastify-csv-import": "^0.5.0",
+    "@fast-csv/parse": "^5.0.2",
+    "@fastify/multipart": "^9.0.3",
+    "@prisma/client": "^6.4.1",
+    "@types/node": "^22.13.4",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-file-upload": "^4.0.0",
+    "fastify-multer": "^2.0.3",
+    "taskscreator": "file:",
+    "zod": "^3.24.2",
+    "zod-validation-error": "^3.4.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.4.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
