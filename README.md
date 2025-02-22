@@ -2,7 +2,7 @@
 
 Simple task creator with simple csv upload
 
-## 💻 Tech
+## 💻 Techs
 
 - Fastify
 - fast-csv
@@ -22,6 +22,20 @@ Open the project and then:
 npm install
 
 npm run start:dev
+```
+
+Create a .env file inside the root and create a var like:
+
+```console
+DATABASE_URL="postgresql://docker:docker@localhost:5432/task?schema=public"
+```
+
+Afterwards execute:
+
+```console
+docker compose up -d
+
+npx prisma studio
 ```
 
 Open the docs in endpoint: /documentation
